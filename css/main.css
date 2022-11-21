@@ -23,10 +23,6 @@ p {
     line-height: 150%;
 }
 
-.add_textAlignCenter {
-    text-align: center;
-}
-
 .divider {
     width: 25%;
     height: 2px;
@@ -40,4 +36,12 @@ p {
     transform: translateX(-50%);
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.add_textAlignCenter {
+    text-align: center;
+}
+
+.add_textColorBlack {
+    color: black;
 }
