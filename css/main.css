@@ -27,15 +27,34 @@ p {
     width: 25%;
     height: 2px;
     border-width: 1px;
-    border-color: gray;
+    border-color: #7C8A42;
     border-style: solid;
-    background: gray;
+    background: 7C8A42;
 
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.divider_left {
+    width: 40%;
+    height: 2px;
+    border-width: 1px;
+    border-color: #7C8A42;
+    border-style: solid;
+    background: #7C8A42;
+
+    position: relative;
+    margin: 8px 0 8px 10px;
+}
+
+.add_textAlignLeft {
+    text-align: left;
+    margin: 5px 0 5px 10px;
+}
+h1.add_textAlignLeft {
+    margin: 10px 0 10px 10px;
 }
 
 .add_textAlignCenter {
