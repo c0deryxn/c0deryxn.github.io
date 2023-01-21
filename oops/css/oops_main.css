@@ -1,8 +1,6 @@
 #center { 
     width: 50%; height: 20%;
     max-width: 50%; max-height: 50%;
-    background: red;
-    opacity: 0.5;
 
     position: absolute;
     top: 50%; left: 50%;
@@ -12,9 +10,6 @@
 #center_innerDiv {
     width: 100%; height: 100%;
     position: relative;
-
-    background: rgb(0, 105, 128);
-    opacity: 0.5;
 }
 
 #innerDiv_innerDiv2 {
@@ -22,8 +17,6 @@
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-
-    background: blue;
 
     text-align: center;
 }
