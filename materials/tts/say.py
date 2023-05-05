@@ -6,10 +6,17 @@ location = os.getcwd()
 audio = "speech.mp3"
 file_path = os.path.join(location, audio)
 
-language = 'ko'
+print("""
+한국어 : ko
+영어 : en
+""")
 
 while True:
-    sp = gTTS(lang=language, text=input("say: "), slow=False)
+    inputStr = input("lang/say: ").split()
+    langStr = str(inputStr[0])
+    textStr = " ".join(inputStr[1:])
+    sp = gTTS(lang=langStr, text=textStr, slow=False)
     sp.save(audio)
     playsound(audio)
+    print(textStr)
     os.remove(file_path)
