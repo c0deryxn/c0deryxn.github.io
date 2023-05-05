@@ -19,4 +19,5 @@ while True:
     sp.save(audio)
     playsound(audio)
     print(textStr)
-    os.remove(file_path)
+    os.remove(file_path) 
+    #
