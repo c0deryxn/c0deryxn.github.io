@@ -10,6 +10,10 @@ salt = input("2nd Password: ")
 input_cert_code = hashlib.sha512(str(passwd + salt).encode("utf-8")).hexdigest()
 
 if input_cert_code == cert_code:
+    try:
+        os.system("cls")
+    except:
+        os.system("clear")
     print("Login Success!")
     location = os.getcwd()
     audio = "speech.mp3"
