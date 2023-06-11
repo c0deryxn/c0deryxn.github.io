@@ -22,11 +22,13 @@
         } */
     </style>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>        
     <!-- ip주소 확인 코드 -->
     <script>
-        $.getJSON("https://api.ipify.org?format=json", function(data) {
-            $("#ipaddr").html(data.ip)
+        $(window).load(function() {
+            $.getJSON("https://api.ipify.org?format=json", function(data) {
+                $("#ipaddr").html(data["ip"]);
+            });
         })
     </script>
 </head>
