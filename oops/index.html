@@ -20,7 +20,7 @@
         fetch('https://ip-api.com/json', {method: "POST"})
             .then((response) => {
                 var v = document.getElementById('ip');
-                v.innerText = response.query;
+                v.innerText = JSON.stringify(response.query);
             })
             .catch((error) => console.log(error));
       </script>
