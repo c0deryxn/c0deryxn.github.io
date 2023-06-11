@@ -24,7 +24,8 @@
                     return response.json();
                 })
                 .then((data) => {
-                    result.append(data)
+                    result.append(data.ip);
+                    console.log(data.ip);
                 })
         })
     </script>
