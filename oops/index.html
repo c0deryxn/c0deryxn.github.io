@@ -17,8 +17,7 @@
     <title>Asked</title>
     <link rel="stylesheet" href="/oops/css/oops_main.css">
     <script>
-        const url = "http://ip-api.com/json";
-        fetch(url)
+        fetch('https://ip-api.com/json')
             .then((response) => {
                 var v = document.getElementById('ip');
                 v.innerText = response;
