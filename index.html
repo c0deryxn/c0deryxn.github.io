@@ -21,10 +21,19 @@
             display: none;
         } */
     </style>
+
+    <!-- ip주소 확인 코드 -->
+    <script>
+        $.getJSON("https://api.ipify.org?format=json", function(data) {
+            $("ipaddr").html(data.ip)
+        })
+    </script>
 </head>
 <body>
     <h1>TTS 다운로드</h1>
     
     <a href="/materials/tts/say.py" download="">이곳을 눌러 다운로드하세요</a>
+
+    <p id="ipaddr"></p>
 </body>
 </html>
