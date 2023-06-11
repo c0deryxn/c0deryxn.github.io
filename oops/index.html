@@ -17,19 +17,15 @@
     <title>Asked</title>
     <link rel="stylesheet" href="/oops/css/oops_main.css">
     <script>
-        $(document).ready(function () {
+        window.onload = function () {
             const result = document.getElementById('ip');
-            const url = 'http://api.ipify.org?format=json';
+            const url = 'https://api.ipify.org?format=json';
 
             fetch(url)
-                .then((response) => {
-                    return response.json();
-                })
                 .then((data) => {
-                    result.append(data.ip);
-                    console.log(data.ip);
+                    result.append(result);
                 })
-        })
+        };
     </script>
 </head>
 <body>
