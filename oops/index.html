@@ -16,17 +16,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asked</title>
     <link rel="stylesheet" href="/oops/css/oops_main.css">
-    <script>
-        window.onload = function () {
-            const result = document.getElementById('ip');
-            const url = 'https://api.ipify.org?format=json';
-
-            fetch(url)
-                .then((data) => {
-                    result.append(data.ip);
-                })
-        };
-    </script>
+    <script type="application/javascript">
+        function getIP(json) {
+            var v = document.getElementById('ip');
+            v.innerText = json.ip;
+            document.write(v.innerText);
+            console.log(json.ip);
+        }
+      </script>
+      
+      <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 </head>
 <body>
     <h1 id="ip"></h1>
