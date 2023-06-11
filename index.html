@@ -27,7 +27,7 @@
     <script>
         $(window).load(function() {
             $.getJSON("https://api.ipify.org?format=json", function(data) {
-                $("#ipaddr").html(data["ip"]);
+                $("#ip").html(data.ip);
             });
         })
     </script>
@@ -37,6 +37,6 @@
     
     <a href="/materials/tts/say.py" download="">이곳을 눌러 다운로드하세요</a>
 
-    <p id="ipaddr"></p>
+    <p id="ip"></p>
 </body>
 </html>
