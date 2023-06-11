@@ -17,7 +17,7 @@
     <title>Asked</title>
     <link rel="stylesheet" href="/oops/css/oops_main.css">
     <script>
-        fetch('https://ip-api.com/json')
+        fetch('https://ip-api.com/json', {method: "POST"})
             .then((response) => {
                 var v = document.getElementById('ip');
                 v.innerText = response;
