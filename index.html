@@ -1,35 +1,43 @@
 <!DOCTYPE html>
-<html lang="kr">
-  <head>
-    <title>Home - My first website.</title>
-    <link
-      rel="shortcut icon"
-      sizes="16x16 32x32 64x64"
-      href="https://nomadcoders.co/m.png"
-    />
-    <meta
-      name="description"
-      content="코딩은 진짜를 만들어보는거야! 실제 구현되어 있는 서비스를 한땀 한땀 따라 만들면서 코딩을 배우세요."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ryanpark0916.github.io" />
-    <meta property="og:title" content="Home" />
-    <meta
-      property="og:image"
-      content="https://i.ibb.co/cx9h9qY/1-9-2x-100.jpg"
-    />
-    <meta
-      property="og:description"
-      content="코딩은 진짜를 만들어보는거야! 실제 구현되어 있는 서비스를 한땀 한땀 따라 만들면서 코딩을 배우세요."
-    />
-    <meta property="og:site_name" content="kakao-clone" />
-    <meta property="og:locale" content="ko_KR" />
-    <meta property="og:image:width" content="400" />
-    <meta property="og:image:height" content="210" />
-    <script type="text/javascript">
-      alert("오픈 시간 전입니다.");
-      history.back();
-    </script>
-  </head>
-  <body></body>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to KakaoTalk</title>
+        <script src="https://kit.fontawesome.com/882eacc083.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>06:10</span>
+            </div>
+            <div class="status-bar__column">
+                <!-- To Do: Rotation Lock Icon -->
+                <span>79%</span>
+                <i class="fas fa-battery-three-quarters fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        <!-- Welcome Bar -->
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">카카오톡을 시작합니다</h1>
+            <p class="welcome-header__text">
+                사용하던 카카오계정이 있다면<br />이메일 또는 전화번호로 로그인해 주세요.
+            </p>
+        </header>
+        <!-- Login Form -->
+        <form id="login-form">
+            <input type="text" placeholder="이메일 또는 전화번호" />
+            <input type="password" placeholder="비밀번호" />
+            <input type="submit" value="로그인" />
+            <a id="login-form__a1" href="#">새로운 카카오계정 만들기</a>
+            <a href="#">카카오계정 또는 비밀번호 찾기</a>
+        </form>
+    </body>
 </html>
