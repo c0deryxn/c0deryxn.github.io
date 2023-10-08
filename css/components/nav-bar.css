@@ -1,0 +1,46 @@
+.nav-bar {
+    background-color: #f9f9fa;
+    padding: 5% 10%;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-bar__ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar__a {
+    position: relative;
+    color: var(--kakao-black);
+}
+
+.nav-bar__notification {
+    background-color: tomato;
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 1.25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vh;
+    font-weight: 600;
+    color: white;
+    position: absolute;  
+    right: -1vh;
+    top: -2vh; 
+}
+
+.nav-bar__noti {
+    background-color: tomato;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    display: flex;
+    position: absolute;
+    right: -1vh;
+    top: -2vh;
+}

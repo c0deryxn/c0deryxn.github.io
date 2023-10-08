@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Welcome to KakaoTalk</title>
+        <title>Kakao Clone 2023</title>
         <script src="https://kit.fontawesome.com/882eacc083.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="shortcut icon" href="https://nomadcoders.co/m.png" sizes="16x16 32x32 64x64" />
     </head>
     <body>
         <!-- Status Bar -->
@@ -32,9 +33,9 @@
             </p>
         </header>
         <!-- Login Form -->
-        <form id="login-form">
-            <input type="text" placeholder="이메일 또는 전화번호" />
-            <input type="password" placeholder="비밀번호" />
+        <form id="login-form" action="friends.html" method="get">
+            <input name="username" type="text" placeholder="이메일 또는 전화번호" required />
+            <input name="password" type="password" placeholder="비밀번호" required />
             <input type="submit" value="로그인" />
             <a id="login-form__a1" href="#">새로운 카카오계정 만들기</a>
             <a href="#">카카오계정 또는 비밀번호 찾기</a>

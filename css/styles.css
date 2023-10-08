@@ -1,7 +1,18 @@
-@import "reset.css";
-@import "status-bar.css";
 @import "fonts.css";
+@import "reset.css";
 @import "var.css";
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+body {
+    color: var(--kakao-black);
+}
 
 .welcome-header {
     margin-top: 15%;
@@ -18,7 +29,7 @@
 }
 
 .welcome-header__text {
-    width: 75%;
+    width: 65%;
     opacity: 0.7;
     margin-bottom: 10%;
 }
@@ -54,7 +65,6 @@
     margin-top: 5%;
     padding: 3% 0%;
     border-radius: 3%;
-    color: black;
 }
 
 #login-form a {

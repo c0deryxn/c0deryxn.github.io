@@ -1,0 +1,47 @@
+.user-component,
+.user_component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.user-component {
+    justify-content: space-between;
+}
+
+.user-component__avatar {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 3.25vh;
+    margin-right: 2.5vw;
+} 
+
+.user-component__avatar--xl {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 3.75vh;
+}
+
+.user-component__avatar--sm {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 2.75vh;
+}
+
+.user-component__title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.user-component__title--not-bold {
+    font-weight: 400;
+}
+
+.user-component__subtitle {
+    margin-top: 0.75vh;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.5);
+}
