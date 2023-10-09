@@ -1,0 +1,89 @@
+@import "fonts.css";
+@import "reset.css";
+@import "var.css";
+
+body {
+    height: 100vh;
+    background-color: #F7CF46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.login-area__id {
+    padding: 5px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.login-area__pw {
+    padding: 5px;
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.login-area__submit {
+    width: 160px;
+    height: 100px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 50px 25px;
+
+}
+
+
+
+.login-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-area__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.login-area__main {
+    margin-right: 2px;
+}
+
+.login-area__userid {
+    background: none;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+.login-area__userpw {
+    
+    background: none;
+    width: 150px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
