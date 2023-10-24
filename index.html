@@ -3,43 +3,40 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Kakao Clone 2023</title>
-        <script src="https://kit.fontawesome.com/882eacc083.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="shortcut icon" href="https://nomadcoders.co/m.png" sizes="16x16 32x32 64x64" />
-        <script src="main.js"></script>
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-        <!-- Status Bar -->
-        <div class="status-bar">
-            <div class="status-bar__column">
-                <span>No Service</span>
-                <i class="fas fa-wifi"></i>
-            </div>
-            <div class="status-bar__column">
-                <span>06:10</span>
-            </div>
-            <div class="status-bar__column">
-                <!-- To Do: Rotation Lock Icon -->
-                <span>79%</span>
-                <i class="fas fa-battery-three-quarters fa-lg"></i>
-                <i class="fas fa-bolt"></i>
-            </div>
+        <div class="login-area">
+            <img src="css/images/test_background.jpg" />
+            <form>
+                <div class="login-area__form">
+                    <div class="login-area__main">
+                        <div class="login-area__id">
+                            <input
+                                type="text"
+                                name="login-area__userid"
+                                class="login-area__userid"
+                                placeholder="아이디"
+                                required
+                            />
+                        </div>
+                        <div class="login-area__pw">
+                            <input
+                                type="password"
+                                name="login-area__userpw"
+                                class="login-area__userpw"
+                                placeholder="비밀번호"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div class="login-area__submit">
+                        <input type="submit" class="login-area__submit" value="로그인" />
+                    </div>
+                </div>
+            </form>
+            <p>등록된 직원만 이용할 수 있습니다. 신규 직원은 인사팀에서 등록해주세요.</p>
         </div>
-        <!-- Welcome Bar -->
-        <header class="welcome-header">
-            <h1 class="welcome-header__title">카카오톡을 시작합니다</h1>
-            <p class="welcome-header__text">
-                사용하던 카카오계정이 있다면<br />이메일 또는 전화번호로 로그인해 주세요.
-            </p>
-        </header>
-        <!-- Login Form -->
-        <form id="login-form" action="friends.html" method="get">
-            <input name="username" type="text" placeholder="이메일 또는 전화번호" required />
-            <input name="password" type="password" placeholder="비밀번호" required />
-            <input type="submit" value="로그인" />
-            <a id="login-form__a1" href="#">새로운 카카오계정 만들기</a>
-            <a href="#">카카오계정 또는 비밀번호 찾기</a>
-        </form>
     </body>
 </html>
