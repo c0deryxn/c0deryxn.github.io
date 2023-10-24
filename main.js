@@ -1,19 +1,14 @@
-// 상수 정의 part
-const PASSWORD = "test1234$";
+let fruit = prompt("무슨 과일을 사고 싶나요?");
 
-// 함수 정의 part
-isVerified = () => {
-    var userInput = prompt("비밀번호");
-    if (userInput != PASSWORD) {
-        alert("비밀번호 불일치");
-        isVerified();
-    } else {
-        alert('인증되었습니다.');
-    }
+switch (fruit) {
+    case "사과":
+        alert('100원입니다.');
+    case "바나나":
+        alert("200원입니다.");
+    case "키위":
+        alert("300원입니다.");
+    case "멜론":
+        alert("500원입니다.");
+    case "수박":
+        alert("500원입니다.");
 }
-
-alertInputValue = (userId, userPw) => {
-    alert(`아이디: ${userId} 비밀번호: ${userPw} 감지되었습니다.`)
-}
-
-isVerified();
