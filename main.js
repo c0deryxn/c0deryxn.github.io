@@ -16,4 +16,6 @@ switch (fruit) {
     case "수박":
         alert("500원입니다.");
         break;
+    default:
+        alert("그런 과일 없어요...");
 }
