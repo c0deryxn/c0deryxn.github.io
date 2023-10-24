@@ -1,4 +1,4 @@
-function sayHello(name) {
+sayHello = (name) => {
     alert(`Hello, ${name}`);
 }
 
