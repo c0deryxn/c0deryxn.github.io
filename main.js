@@ -1,2 +1,4 @@
-const weekDays = ["Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-alert(weekDays[4])
+const weekDays = ["Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday"];
+console.log(weekDays);
+weekDays.push("Sunday");
+console.log(weekDays);
