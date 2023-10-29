@@ -1,4 +1,7 @@
-const weekDays = ["Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday"];
-console.log(weekDays);
-weekDays.push("Sunday");
-console.log(weekDays);
+const player = {
+    name: "nico",
+    points: 10,
+    fat: true
+};
+
+console.log(player)
