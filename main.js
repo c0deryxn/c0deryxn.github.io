@@ -1,7 +1,2 @@
-sayHello = (name) => {
-    let newName = name || "friend";
-    alert(`Hello, ${newName}`);
-}
-
-sayHello();
-sayHello("박성민");
+const weekDays = ["Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+alert(weekDays[4])
