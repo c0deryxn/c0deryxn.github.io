@@ -1,7 +1,10 @@
+
+
 const player = {
     name: "nico",
-    points: 10,
-    fat: true
+    sayHello: () => {
+        console.log(`Hello, my name is Hello!`);
+    }
 };
 
-console.log(player)
+player.sayHello();
