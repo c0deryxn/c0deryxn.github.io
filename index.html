@@ -4,15 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Momentum App</title>
-        <link rel="stylesheet" href="css/test.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
-        <!-- 서버 업로드 시 경로 변환 -->
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <div class="hello">
-            <h1>Grab me 1!</h1>
-        </div>
-        <script src="main.js"></script>
-        <!-- 서버 업로드 시 경로 변환 -->
+        <form id="login-form" class="hidden">
+            <input required type="text" maxlength="15" placeholder="이름" />
+            <button>Log In</button>
+        </form>
+        <h1 class="hidden"></h1>
+        <script src="app.js"></script>
     </body>
 </html>
