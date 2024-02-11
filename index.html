@@ -3,15 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Momentum App</title>
+        <title>uy.dev</title>
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <form id="login-form" class="hidden">
-            <input required type="text" maxlength="15" placeholder="이름" />
-            <button>Log In</button>
-        </form>
-        <h1 class="hidden"></h1>
-        <script src="app.js"></script>
+        <div id="isInUser" class="hidden">
+            <h1 class="charsize_screen">uy.dev</h1>
+        </div>
+        <div id="isntInUser" class="hidden">
+            <form id="register_form">
+                <input type="text" placeholder="이름" />
+                <button>체크인</button>
+            </form>
+        </div>
+
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
