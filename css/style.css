@@ -42,8 +42,13 @@ body {
     border-radius: 1vh;
     color: white;
     font-size: 1.5vh; 
-    /* Bug Report: 위 코드(44줄) 추가 시 체크인 버튼보다 input태그 부분의 height이 더 길어 보이는 경향성이 있음
-    . */
+    
+}
+
+#register_form { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #register_form > button {
