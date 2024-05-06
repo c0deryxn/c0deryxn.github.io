@@ -9,53 +9,10 @@
     font-family: 'Pretendard-Regular';
 }
 
-.hidden {
-    display: none;
-}
 
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.charsize_screen {
-    font-size: 125px;
-}
-
-#isntInUser {
-    width: 40vw;
-    height: 10vh;
-    background-color: black;
-    border-radius: 3vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#register_form > input {
-    width: 20vw;
-    height: 4vh;
-    background: none;
-    border: 1px solid mediumspringgreen;
-    border-radius: 1vh;
-    color: white;
-    font-size: 1.5vh; 
-    
-}
-
-#register_form { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#register_form > button {
-    width: 2.5vw;
-    height: 4vh;
-    background: none;
-    border: 1px solid mediumseagreen;
-    border-radius: 1vh;
-    color: white;
 }
