@@ -1,5 +1,8 @@
+* {
+    height: 100vh;
+}
+
 body {
-    height: 100%;
     background: #35393c;
     display: flex;
     justify-content: center;
